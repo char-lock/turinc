@@ -1,0 +1,12 @@
+sym{1}
+st{3}
+
+inst(1)
+outst(0)
+
+sym(0)st(1) -> sym(1)mov(1)st(2)
+sym(1)st(1) -> sym(1)mov(-1)st(3)
+sym(0)st(2) -> sym(1)mov(-1)st(1)
+sym(1)st(2) -> sym(1)mov(1)st(2)
+sym(0)st(3) -> sym(1)mov(-1)st(2)
+sym(1)st(3) -> sym(1)mov(1)st(0)
